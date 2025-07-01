@@ -1,0 +1,35 @@
+{
+  "name": "Mundo Divertido",
+  "short_name": "Mundo Divertido",
+  "description": "Aplicativo educativo acessível para crianças neurodivergentes",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F9FA",
+  "theme_color": "#87CEEB",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192x192/87CEEB/FFFFFF?text=MD",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/87CEEB/FFFFFF?text=MD",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["education", "kids", "accessibility"],
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "screenshots": [
+    {
+      "src": "https://via.placeholder.com/1280x720/87CEEB/FFFFFF?text=Mundo+Divertido",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
+}

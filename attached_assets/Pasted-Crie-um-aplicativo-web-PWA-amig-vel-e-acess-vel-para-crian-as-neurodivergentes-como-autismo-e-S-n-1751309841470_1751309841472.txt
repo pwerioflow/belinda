@@ -1,0 +1,60 @@
+Crie um aplicativo web (PWA) amigável e acessível para crianças neurodivergentes (como autismo e Síndrome de Down), com as seguintes funcionalidades e estrutura:
+
+---
+
+🧩 Tela 1: Login
+
+- Um campo de e-mail e senha com ícones claros e acessíveis
+- Botão "Entrar" grande, com texto legível e contraste alto
+- Link alternativo "Entrar como convidado" que leva direto ao menu
+- Layout centralizado e espaçamento confortável para uso em tablets
+
+---
+
+🎉 Tela 2: Boas-vindas
+
+- Título grande com mensagem: "Olá, [Nome da Criança]!"
+- Exibir um avatar no centro (pode ser emoji, personagem ou animalzinho)
+- Música ambiente suave tocando em background (se possível)
+- Botão de configurações (visível apenas se logado como pai/responsável)
+
+---
+
+🖼️ Tela 3: Menu de Atividades
+
+Crie três cards grandes e interativos com ícones grandes e cores suaves:
+
+1. 🎵 Ouvir Música  
+   - Botão leva para uma tela com 3 áudios simples de música infantil.
+   - Cada música é representada com um botão visual grande com ícone.
+
+2. 🖍️ Colorir  
+   - Simule um botão que representa uma atividade de desenho/colorir.
+   - Pode exibir uma imagem com opções de cores em volta (simulação apenas).
+
+3. 📷 Ver Fotos  
+   - Tela com 3 ou 4 imagens (mock) puxadas do Supabase Storage
+   - Imagens devem ser grandes, com navegação simples (ex: carrossel ou botões "Próxima")
+
+---
+
+🧑‍💻 Tela 4: Configurações dos Pais (opcional)
+
+- Tela com senha para acessar (ou login separado de administrador)
+- Permitir:
+  - Alterar nome da criança
+  - Escolher avatar
+  - Ajustar tempo de uso permitido
+- Exibir uma seção com "Atividades realizadas hoje":
+  - Quantidade de cliques ou tempo gasto em cada área
+
+---
+
+🎨 Estilo geral:
+
+- Fonte sem serifa (como Inter ou Arial), mínimo 18px
+- Botões arredondados e grandes (fáceis de tocar)
+- Navegação linear, sem menus escondidos
+- Cores pastéis (ex: azul claro, lilás, amarelo suave) com contraste suficiente
+- Layout acessível para tablets e crianças com coordenação motora reduzida
+- Inclua rótulos de acessibilidade (aria-labels)
